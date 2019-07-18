@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Dad Joke Portal</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+    <!--custom bootstrap css to support scroll effects-->
+    <link rel="stylesheet" href="/clientCSS/customBootstrap.css" >
+
+    <!--boot strap js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/clientCSS/dadjokes.css" />
+
+</head>
+
+
+<body class="index-page">
+    <a id="page-top"></a>
+
+    <nav id="myNavbar" class="navbar navbar-default navbar-fixed-top anchor">
+    <div class="container nav_container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="myLogo" class="navbar-brand" href="http://top-shelf.net">D. Scott Hurd</a>
+
+            <a href="https://www.linkedin.com/in/scott-hurd-calgary/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden active">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#term">Search Term</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#results">Results</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-text">
+                    <span class="name">Dad Joke Portal</span>
+                    <hr>
+                    <span class="skills">Enter text and press search button to find Dad jokes!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <section id="term">
+    <div class="container anchor">
+        <div class="row">
+            <div class="col-md-12">
+                <form id="sendForm">
+                    <div class="row" id="formRow1">
+                        <div class="col-md-12" id="form-col">
+                            <div class="form-group">
+                                <label>Search Term:</label>
+                                <textarea rows="4" class="form-control" placeholder="Input search term here" id="term" style="width: 100%;"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="sendBtn" class="btn btn-success">Search</button>
+                </form>
+            </div>
+       </div>
+    </div>
+</section>
+
+    <hr>
+
+    <section id="results">
+    <div class="container anchor">
+        <div class="row">
+            <div class="col-lg-8 ">
+                <div class="form-group">
+                    <label>Results:</label>
+                    <div id="resultsStatus"></div>
+                    <a href='#' class="paginationButtons" id='firstPage'><i class='fa fa-fw fa-angle-double-left'></i></a>
+                    <a href='#' class="paginationButtons" id='prevPage'><i class='fa fa-fw fa-angle-left'></i></a>
+                    <a href='#' class="paginationButtons" id='nextPage'><i class='fa fa-fw fa-angle-right'></i></a>
+                    <a href='#' class="paginationButtons" id='lastPage'><i class='fa fa-fw fa-angle-double-right'></i></a>
+                    <div id="resultsText"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 footer " >
+                <i class="fa fa-user fa-fw" aria-hidden="true"></i>D. Scott Hurd</br>
+                <i class="fa fa-map-pin fa-fw" aria-hidden="true"></i>Calgary, Alberta, Canada</br>
+                <i class="fa fa-facebook fa-fw" aria-hidden="true"></i> <a href="https://www.facebook.com/profile.php?id=100020357703571">Hurd Family</a>
+            </div>
+
+            <div class="col-md-3 footer " >
+                <i class="fa fa-envelope fa-fw" aria-hidden="true"></i><a href="mailto:systems-builder@shaw.ca">systems-builder@shaw.ca</a></br>
+                <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/scott-hurd-calgary/"> scott-hurd-calgary</a></br>
+            </div>
+
+            <div class="col-md-3 footer " >
+
+            </div>
+
+            <div class="col-md-3 footer " >
+
+
+            </div>
+            <!-- %insertFooterRow% -->
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<script src="/clientJs/dadjokes.js"></script>
+
+</html>
