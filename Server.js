@@ -3,7 +3,6 @@ var fs = require('fs');
 var bodyParser = require("body-parser");
 
 var http = require('http');
-//<add_Requires>
 
 var app = express();
 
