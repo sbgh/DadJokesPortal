@@ -12,7 +12,7 @@
    
    ## Solution: Dad Joke Portal
    
-   The "Dad Joke Portal" is a web application build with Node.js/Express/HTML5/ajax/jQuery/Bootstrap.
+   The "Dad Joke Portal" is a web application that transforms input text into 'Dad jokes". It is build with Node.js/Express/HTML5/ajax/jQuery/Bootstrap.
    The application routes the user's search through a Node.js request to [https://icanhazdadjoke.com/api](https://icanhazdadjoke.com/api)
    
    ## Contents:
