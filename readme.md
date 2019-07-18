@@ -52,5 +52,5 @@
  
       Express server listening on port 80
       
- Acces the application by opening a browser with network access to the server and entering the server's host name or IP addresss into the URL bar. The appliuaction UI will be presented.
+ Access the application by opening a browser with network access to the server and entering the server's host name or IP addresss into the URL bar. The appliuaction UI will be presented.
       
