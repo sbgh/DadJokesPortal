@@ -15,7 +15,7 @@
    The "Dad Joke Portal" is a web application build with Node.js/Express/HTML5/ajax/jQuery/Bootstrap.
    The application routes the user's search through a Node.js request to [https://icanhazdadjoke.com/api](https://icanhazdadjoke.com/api)
    
-   ##Contents:
+   ## Contents:
   * This README file.
   * "static" directory containing folders for CSS, js, theam (bootstrap)
   * "static/clientCSS" directory containing customBootstrap.css, dadjokes.css
@@ -30,11 +30,11 @@
    The Dad Joke Portal web browser application accepts 1 text input:
   * Search Term (words seperated by spaces or new line)
   
-   ###Usage:
+   ### Usage:
   Enter search terms into the search term input. and click search. The results area will contain a list of dad jokes that contain any of the words in the search term. The maximum number of jokes returnd per page is 20. 
   Click the page navigation buttons to cycle through pages. Searching without a search term will return all dad jokes.
   
-   ###Setup: 
+   ### Setup: 
   
   The recommended setup environment for the Dad Joke Portal and RHEL v8.0 Linux hosted on Amazon AWS Micro-t2. 
   Instance must have internet access to icanhazdadjoke.com. Port 80 must be opened on incomming firewall connections.
