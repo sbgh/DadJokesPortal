@@ -160,7 +160,9 @@ $(document).ready(function() {
             error : function(error) { //server returned error
                 //clear list of jokes
                 $("#resultsText").html("");
-                console.log(error)
+                $(".paginationButtons").hide();
+                $("#resultsText").text("Error connecting to dadjokes api");
+                console.log(error);
                 console.log("Error retriving dad jokes")
             }
         });
