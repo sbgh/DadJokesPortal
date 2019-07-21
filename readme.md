@@ -9,10 +9,12 @@
      You don't have to put it online anywhere, we just want to look at that code. We don’t have to be able to compile or run it.
      Send me the source code as a link to a git repository I can clone.
    
-   ## Solution: Dad Joke Portal
+   ## Solution:
    
+   ![/builder](http://ezstack.systems/dadJokesScr.png "Dad Joke Portal") 
    The "Dad Joke Portal" is a web application that transforms input text into 'Dad jokes". It is build with Node.js/Express/HTML5/ajax/jQuery/Bootstrap.
-   The application routes the user's search through a Node.js request to [https://icanhazdadjoke.com/api](https://icanhazdadjoke.com/api)
+   The application routes the user's search through a Node.js request to http://icanhazdadjoke.com/search. 
+   See [https://icanhazdadjoke.com/api](https://icanhazdadjoke.com/api) 
    
    ## File Contents:
   * This README file.
@@ -47,6 +49,7 @@
       
   ### Test: 
    
+  This project includes a Mocha test suite that includes http request level testing of the /dadjokes api. 
   From the project folder use command;
       
       sudo npm test   
