@@ -4,7 +4,7 @@
   "description": "Interface to https://icanhazdadjoke.com/api",
   "main": "Server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --exit"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +12,10 @@
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^6.2.0"
   }
 }
